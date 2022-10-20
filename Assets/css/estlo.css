@@ -1,7 +1,10 @@
 h1{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:rgb(27, 132, 153);
+   
+    }
+    u{
+        color: brown;
     }
     .foto{
         width: 40%;
@@ -17,8 +20,12 @@ h1{
         display: flex;
         justify-content: center;
     }
+    .descripcion{
+        width: 50%;
+    }
     .caja1{
         margin-left:10%;
+        
     }
     .parrafo{
         width: 60%;
@@ -28,6 +35,7 @@ h1{
      flex-direction: column;
      margin-left:20% ;
      margin-bottom: 10%;
+     width: 30%;
     }  
    .estudios{
     margin-left: 40%;
@@ -60,12 +68,18 @@ h1{
     .habilidades{
         display: flex;
         justify-content: center;
-        margin-left: 20%;
-        margin-top: 10%;
-       
+        margin-left: 10%;
+        margin-top: 10%; 
+    }
+    .titulo{
+        width: 200%;
+    }
+    .ultm{
+        width: 80%;
+        margin-left: 10%;
     }
     body{
-    background:rgb(171, 215, 215);
+    background:rgb(245, 199, 33);
    
     }
     
