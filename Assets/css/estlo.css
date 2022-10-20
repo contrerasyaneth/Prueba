@@ -1,17 +1,39 @@
 h1{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: brown;
+    color:rgb(27, 132, 153);
     }
-    .descripcion{
+    .foto{
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 10%;
+        
+    }
+    .personales{
+        width: 100%;
        
-    
     }
-    
-    
-    div img{
-        border-style:dotted ; color: brown;
+    .datos{
+        display: flex;
+        justify-content: center;
     }
+    .caja1{
+        margin-left:10%;
+    }
+    .parrafo{
+        width: 60%;
+    }
+    .caja{
+     display: flex;   
+     flex-direction: column;
+     margin-left:20% ;
+     margin-bottom: 10%;
+    }  
+   .estudios{
+    margin-left: 40%;
+    width: 20%;
+   }
+    
     table{
         border:1px solid;
         border-color: brown;
@@ -31,13 +53,19 @@ h1{
     }
     h2{
         font-family:sans-serif;
+        background: rgb(28, 87, 102);
+        margin-right: 70%;
+        text-align: center;
     }
-    h3{
-        font-family:sans-serif;
+    .habilidades{
+        display: flex;
+        justify-content: center;
+        margin-left: 20%;
+        margin-top: 10%;
+       
     }
-    
-    
     body{
     background:rgb(171, 215, 215);
+   
     }
     
